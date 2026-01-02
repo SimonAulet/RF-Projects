@@ -4,6 +4,7 @@
 
 ### Parámetros en $1\,\text{GHz}$
 
+
 | Parámetro | Valor |
 | :--- | :--- |
 | **Frecuencia de resonancia** | $1.000\,\text{GHz}$ |
@@ -17,11 +18,17 @@
 ### Resultados y Análisis de Simulación
 
 #### Optimización y Respuesta en Frecuencia
+
 ![Parámetro $S_{11}$ con *parameter sweep*](img/dipolo_S11.png)
+
 **Figura 1.1 - Optimización de impedancia.** Curva del parámetro $S_{11}$ para el factor de longitud óptimo (**$0.463333\lambda$**), obtenido tras un barrido paramétrico (mult. de $0.45$ a $0.49\lambda$). El mínimo de **$-28\,\text{dB}$ a $1\,\text{GHz}$** confirma una sintonía precisa y una adaptación de impedancia óptima.
 
 #### Patrón de Radiación 3D y Cortes Principales
+
 ![Diagrama de Directividad 3D (escala log.)](img/dipolo_3D.png)
+
+
+
 **Figura 1.2 - Patrón de radiación 3D.** Visualización en escala logarítmica de la directividad. Muestra el patrón toroidal ("donut") característico, con máximos en el plano ecuatorial $(XY)$ y nulos en el eje del dipolo $(Z)$. Se indican los valores de directividad ($2.119\,\text{dBi}$) y eficiencias.
 
 <table>
